@@ -1,123 +1,123 @@
 krkr_archives
 =============
 
-今まで作成してきた吉里吉里2, 吉里吉里Z関連のスクリプトです。
-+ 吉里吉里2(http://kikyou.info/tvp/)
-+ 吉里吉里Z(http://krkrz.github.io/)
+These are the scripts related to Kirikiri 2 and Kirikiri Z that I have created so far.
++ Kirikiri 2(http://kikyou.info/tvp/)
++ Kirikiri Z(http://krkrz.github.io/)
 
-以下に概要を示します。
-詳細な説明は各フォルダに入っているreadme.txtを参照してください。
+An overview is shown below.
+For detailed explanations, please refer to the readme.txt included in each folder.
 
 
 
-## toolsフォルダ
-開発作業時に便利なツールなどが入っています。
+## tools folder
+Contains tools that are useful during development work.
 
 + oggConverter
-wavファイルをoggファイルに変換します。
+Converts wav files to ogg files.
 
 + packer
-ファイルに吉里吉里の署名をつけたり、フォルダをxp3にパッケージします。
+Adds a Kirikiri signature to files or packages folders into xp3.
 
 + htmlConverter
-ksファイルまたはtjsファイルをhtmlファイルに変換します。
+Converts ks files or tjs files into html files.
 
 + tlgConverter
-tlgファイルをpngファイルに変換します。
+Converts tlg files into png files.
 
 + tpTjsExporter
-TexturePackerからtjsの辞書形式で出力するためのexporterです。
+An exporter for outputting from TexturePacker in tjs dictionary format.
 
 + labelInserter
-KAGEXのスクリプトファイルにページごとのラベルを挿入します。
+Inserts per-page labels into KAGEX script files.
 
 + MysticThumbsTlgPlugin
-エクスプローラ上でTLG画像のサムネイルを表示できるようになります。
-MysticThumbs(http://mysticcoder.net/mysticthumbs.html)を利用しています。
+Allows thumbnails of TLG images to be displayed in Explorer.
+Utilizes MysticThumbs(http://mysticcoder.net/mysticthumbs.html).
 
 
 
-## kag_pluginフォルダ
-KAG用のプラグインが入っています。
+## kag_plugin folder
+Contains plugins for KAG.
 
 + SKN_SystemShowing
-ウィンドウ右上にシステムレイヤを表示します。TIPS表示などに使えます。KAGEX版も同梱されています。
+Displays a system layer in the upper right of the window. Can be used for TIPS display, etc. A KAGEX version is also included.
 http://kasekey.blog101.fc2.com/blog-entry-47.html
 
 + SKN_Slider
-スライダを表示できます。
+Allows you to display a slider.
 http://kasekey.blog101.fc2.com/blog-entry-17.html
 
 + SKN_RecordLabelTJS
-ラベルのセーブ、ロードを高速化します。
+Speeds up saving and loading of labels.
 http://kasekey.blog101.fc2.com/blog-entry-137.html
 
 + limitCursor
-カーソルの移動範囲をウィンドウの中に限定します。
+Limits the cursor's movement range to within the window.
 https://biscrat.com/blog/limit-cursor-kag/
 
 + ignoreMissing
-効果音ファイルや画像ファイルが存在しないときにエラーで停止しないようにします。
+Prevents stopping with an error when sound effect files or image files do not exist.
 https://biscrat.com/blog/ignore-missing-error-kag/
 
 
 
-## kagex_pluginフォルダ
-KAGEX用のプラグインが入っています。
+## kagex_plugin folder
+Contains plugins for KAGEX.
 
 + SKN_ActionEx
-アクション機能を拡張します。
+Expands the action functionality.
 http://kasekey.blog101.fc2.com/blog-entry-109.html
 
 + SKN_CatSystem
-CatSystem2形式で立ち絵が表示できるようになります。
+Allows character sprites to be displayed in CatSystem2 format.
 http://kasekey.blog101.fc2.com/blog-entry-86.html
 
 + SKN_EditEx
-単一行エディタの機能を拡張します。
+Expands the functionality of the single-line editor.
 http://kasekey.blog101.fc2.com/blog-entry-122.html
 
 + SKN_MouseGesture
-マウスジェスチャが使えるようになります。
+Allows the use of mouse gestures.
 http://kasekey.blog101.fc2.com/blog-entry-99.html
 
 + SKN_MouseSkip
-マウスの左ボタン押しっぱなしでテキストをスキップできます。
+Allows skipping text by holding down the left mouse button.
 http://kasekey.blog101.fc2.com/blog-entry-127.html
 
 + SKN_SelectAction
-選択肢を表示、消去する際にアクションが使えるようになります。
+Allows the use of actions when displaying or erasing choices.
 http://kasekey.blog101.fc2.com/blog-entry-121.html
 
 + KAGParserExb
-KAGParserクラスの機能を拡張します。
+Expands the functionality of the KAGParser class.
 http://kasekey.blog101.fc2.com/blog-entry-203.html
 
 
 
-## utilフォルダ
-吉里吉里Z用のtjsライブラリです。
+## util folder
+A tjs library for Kirikiri Z.
 
 
 
-## docフォルダ
-吉里吉里関連のドキュメントが入っています。
+## doc folder
+Contains Kirikiri-related documents.
 
 + kagex_reference
-KAGEXのワールド拡張を含まない部分のリファレンスです。
-以下のURLで同じものを公開しています。
+A reference for the parts of KAGEX that do not include the world extension.
+The same content is published at the following URL.
 https://biscrat.com/krkr/docs/kagex/contents/index.html
 
 + kagex_book
-2011年のコミケで頒布したKAGEXの解説本です。
+A KAGEX explanation book distributed at Comiket in 2011.
 
 
 
-## photoshopフォルダ
-Adobe Photoshop用のスクリプトファイルが入っています。
+## photoshop folder
+Contains script files for Adobe Photoshop.
 
 + psd2uicsv
-psdファイルからKAGEXのUI定義ファイルを出力します。
+Outputs KAGEX UI definition files from psd files.
 
 + misc
-その他、細々としたスクリプトです。
+Other various miscellaneous scripts.
